@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:linchart="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        android:layout_marginTop="50dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.aotuman.linechart.LineChartView
+                android:id="@+id/lineChart"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                linchart:lineColor="@color/colorLine"
+                linchart:dividerCount="5"
+                linchart:xInterval="70dp"
+                linchart:leftInterval="20dp"
+                linchart:bottomInterval="20dp"
+                linchart:topInterval="40dp"
+                linchart:yAxisFontSize="14sp"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

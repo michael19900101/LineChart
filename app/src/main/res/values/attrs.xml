@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LineChartView">
+        <attr name="lineColor" format="color"></attr><!--折线的颜色-->
+        <attr name="dividerCount" format="integer"></attr><!--纵轴分割数量-->
+        <attr name="xInterval" format="dimension"></attr><!--X轴每个刻度的间距间距-->
+        <attr name="leftInterval" format="dimension"></attr><!-- Y轴距离view长度-->
+        <attr name="bottomInterval" format="dimension"></attr><!--X轴距离view底部的高度-->
+        <attr name="topInterval" format="dimension"></attr><!--X轴距离view顶部长度-->
+        <attr name="yAxisFontSize" format="dimension"></attr><!--Y轴字体的大小-->
+    </declare-styleable>
+</resources>
